@@ -14,7 +14,11 @@ import theme from 'constants/themes.constants';
 
 import Localization from 'components/localization'; // TODO: remove if no localization
 import Layout from 'components/layout/layout';
-import Home from 'home/home-page'; // TODO: replace this with actual component
+
+import HomePage from 'pages/home-page';
+import CalendarPage from 'pages/calendar-page';
+import VideoPage from 'pages/video-page';
+import NewsPage from 'pages/news-page';
 
 class App extends React.Component<{||}> {
   render() {
@@ -24,7 +28,20 @@ class App extends React.Component<{||}> {
           <ThemeProvider theme={theme}>
             <Router history={history}>
               <Layout>
-                <Route exact path="/" name="home" component={Home} />
+                <Route exact path="/" name="home" component={HomePage} />
+                <Route
+                  exact
+                  path="/videos"
+                  name="videos"
+                  component={VideoPage}
+                />
+                <Route exact path="/news" name="news" component={NewsPage} />
+                <Route
+                  exact
+                  path="/calendar"
+                  name="calendar"
+                  component={CalendarPage}
+                />
                 <Route
                   path="/lazy"
                   name="lazy"

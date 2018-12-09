@@ -25,7 +25,7 @@ const Layout = ({ children, intl }: Props) => (
     <Navbar inverse>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="#home">
+          <a href="/">
             <Image
               src={Logo}
               rounded
