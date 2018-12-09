@@ -22,7 +22,7 @@ type Props = {
 
 const Layout = ({ children, intl }: Props) => (
   <StyledLayout>
-    <Navbar inverse>
+    <Navbar inverse collapseOnSelect>
       <Navbar.Header>
         <Navbar.Brand>
           <a href="/">
@@ -38,30 +38,33 @@ const Layout = ({ children, intl }: Props) => (
             {/* <FormattedMessage id="homepage.title" /> */}
           </a>
         </Navbar.Brand>
+        <Navbar.Toggle />
       </Navbar.Header>
-      <Nav pullRight>
-        <NavDropdown
-          eventKey={1}
-          title={intl.formatMessage({ id: 'tabs.more' })}
-          id="basic-nav-dropdown">
-          <MenuItem eventKey={1.1}>
-            <FormattedMessage id="tabs.about" />
-          </MenuItem>
-          <MenuItem divider />
-          <MenuItem eventKey={1.2}>
-            <FormattedMessage id="tabs.contact" />
-          </MenuItem>
-        </NavDropdown>
-        <NavItem eventKey={2} href="/videos">
-          <FormattedMessage id="tabs.videos" />
-        </NavItem>
-        <NavItem eventKey={3} href="/news">
-          <FormattedMessage id="tabs.news" />
-        </NavItem>
-        <NavItem eventKey={4} href="/calendar">
-          <FormattedMessage id="tabs.calendar" />
-        </NavItem>
-      </Nav>
+      <Navbar.Collapse>
+        <Nav pullRight>
+          <NavDropdown
+            eventKey={1}
+            title={intl.formatMessage({ id: 'tabs.more' })}
+            id="basic-nav-dropdown">
+            <MenuItem eventKey={1.1}>
+              <FormattedMessage id="tabs.about" />
+            </MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey={1.2}>
+              <FormattedMessage id="tabs.contact" />
+            </MenuItem>
+          </NavDropdown>
+          <NavItem eventKey={2} href="/videos">
+            <FormattedMessage id="tabs.videos" />
+          </NavItem>
+          <NavItem eventKey={3} href="/news">
+            <FormattedMessage id="tabs.news" />
+          </NavItem>
+          <NavItem eventKey={4} href="/calendar">
+            <FormattedMessage id="tabs.calendar" />
+          </NavItem>
+        </Nav>
+      </Navbar.Collapse>
     </Navbar>
     {children}
   </StyledLayout>

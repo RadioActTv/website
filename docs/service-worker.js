@@ -1,9 +1,9 @@
 'use strict';
 var precacheConfig = [
-    ['/index.html', '7ca43f340070fc3d2bfa961d8f135015'],
+    ['/index.html', 'dd9cf54c76dce099ba32d6e9607ecf9f'],
     ['/static/css/main.65027555.css', '41e5e45b9b5d9ecaa09b72c11eed3386'],
     ['/static/js/0.870fc8e5.chunk.js', '0a99f5af0294ad28c667cefc174b42e4'],
-    ['/static/js/main.f56ab0b5.js', '13e9290a825482d252838796de44be6a'],
+    ['/static/js/main.b022386c.js', 'd3b740ebd8fc3bde3a6968258efd0d50'],
     [
       '/static/media/logo-small.cc2efd99.svg',
       'cc2efd998bae13307e04acffd4341ea5'
