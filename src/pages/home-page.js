@@ -20,12 +20,30 @@ export class HomePage extends React.PureComponent<ConnectedProps & OwnProps> {
   render() {
     const { isLoading } = this.props;
 
-    return <StyledContainer>ברוכים הבאים לעולם שכולו טוב</StyledContainer>;
+    return (
+      <StyledContainer>
+        עקב התעוררות הציבור וגדילת הצמא לידע בקרב העם, הוקם ערוץ תקשורת בלתי
+        תלוי ונקי ממניעים חיצוניים. חלק מהנושאים המונגשים בערוץ אינם נושאים
+        הקלים לעיסוק, אך עקב ניתוק מוסדות המדינה והתקשורת מצורכי הציבור פועל
+        הערוץ להציג לקהל תמונה מקיפה של המציאות. ערוץ Radioact.tv יפעל בצורה
+        שקופה הנקייה מאינטרסים חסויים ויספק אמת רחבה, נקיה ועמוקה לציבור.
+        ייחודנו בכך שאנו מספקים מידע ישיר וברור המקנה לציבור ידע שאיתו יבוא הכוח
+        לפעול ולשנות. בכדי לאפשר לערוץ Radioact.tv לפעול על פי ייעודו בצורה
+        חופשית ושקופה, אנו קוראים קריאה לכול מי שרוצה להצטרף בכל שלב, לתת יד,
+        להשמיע קול, למסור מידע, להשלים ולתקן מידע, לחשוף ידיעות, להזדהות ולתמוך,
+        לאהוב ולהתחבר. ערוץ " Radioact.tv " מגייס: את כולם. כשהסמכות תפסיק להיות
+        האמת, והאמת תהיה הסמכות היחידה, לא נצטרך עוד את " Radioact.tv"
+      </StyledContainer>
+    );
   }
 }
 
 const StyledContainer = styled.div`
   text-align: center;
+  direction: rtl;
+  font-size: 16px;
+  padding: 0 20px;
+  line-height: 27px;
 `;
 
 export const StyledPost = styled.div``;

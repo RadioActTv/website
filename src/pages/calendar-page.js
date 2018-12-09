@@ -27,8 +27,8 @@ export class CalendarPage extends React.PureComponent<
         <iframe
           src="https://calendar.google.com/calendar/embed?src=radioact.tv%40gmail.com&ctz=Asia%2FJerusalem"
           style={{ border: 0 }}
-          width="800"
-          height="600"
+          width="100%"
+          height="600px"
           frameborder="0"
           scrolling="no"
         />
@@ -39,6 +39,7 @@ export class CalendarPage extends React.PureComponent<
 
 const StyledContainer = styled.div`
   text-align: center;
+  margin: 0 20px;
 `;
 
 export const StyledPost = styled.div``;

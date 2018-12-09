@@ -23,8 +23,8 @@ export class VideoPage extends React.PureComponent<ConnectedProps & OwnProps> {
     return (
       <StyledContainer>
         <iframe
-          width="1120"
-          height="630"
+          width="100%"
+          height="600px"
           src="https://www.youtube.com/embed/videoseries?list=PLFSsTI7gnZUSj8N4vxwSCsAE7b3sXr54_"
           frameborder="0"
           allow="autoplay; encrypted-media"
@@ -37,6 +37,7 @@ export class VideoPage extends React.PureComponent<ConnectedProps & OwnProps> {
 
 const StyledContainer = styled.div`
   text-align: center;
+  margin: 0 20px;
 `;
 
 export const StyledPost = styled.div``;
