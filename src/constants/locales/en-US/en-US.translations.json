@@ -1,3 +1,9 @@
 {
-  "homepage.title": "Welcome to the 500Tech boilerplate"
+  "homepage.title": "RadioAct.TV",
+  "tabs.videos": "סרטונים",
+  "tabs.news": "כתבות",
+  "tabs.contact": "צור קשר",
+  "tabs.about": "אודות",
+  "tabs.calendar": "לוח שידורים",
+  "tabs.more": "עוד"
 }

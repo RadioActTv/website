@@ -14,7 +14,7 @@ import theme from 'constants/themes.constants';
 
 import Localization from 'components/localization'; // TODO: remove if no localization
 import Layout from 'components/layout/layout';
-import Sample from 'sample/sample'; // TODO: replace this with actual component
+import Home from 'home/home-page'; // TODO: replace this with actual component
 
 class App extends React.Component<{||}> {
   render() {
@@ -24,7 +24,7 @@ class App extends React.Component<{||}> {
           <ThemeProvider theme={theme}>
             <Router history={history}>
               <Layout>
-                <Route exact path="/" name="sample" component={Sample} />
+                <Route exact path="/" name="home" component={Home} />
                 <Route
                   path="/lazy"
                   name="lazy"
