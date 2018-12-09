@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "~8.11.0",
-    "npm": "~5.5.1"
+    "node": "~11.1.0",
+    "npm": "~6.4.1"
   },
   "dependencies": {
     "@500tech/react-scripts": "^1",
@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build & mv build docs",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "prettier:all": "prettier --write 'src/**/*.js'",
