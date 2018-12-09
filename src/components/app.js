@@ -29,17 +29,16 @@ class App extends React.Component<{||}> {
             <Router history={history}>
               <Layout>
                 <Route exact path="/" name="home" component={HomePage} />
-                <Route exact path="/docs" name="home" component={HomePage} />
                 <Route
                   exact
-                  path="/docs/videos"
+                  path="/videos"
                   name="videos"
                   component={VideoPage}
                 />
                 <Route exact path="/news" name="news" component={NewsPage} />
                 <Route
                   exact
-                  path="/docs/calendar"
+                  path="/calendar"
                   name="calendar"
                   component={CalendarPage}
                 />

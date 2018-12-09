@@ -20,7 +20,7 @@ export class HomePage extends React.PureComponent<ConnectedProps & OwnProps> {
   render() {
     const { isLoading } = this.props;
 
-    return <StyledContainer>HomePage</StyledContainer>;
+    return <StyledContainer>ברוכים הבאים לעולם שכולו טוב</StyledContainer>;
   }
 }
 

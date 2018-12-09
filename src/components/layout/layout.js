@@ -52,13 +52,13 @@ const Layout = ({ children, intl }: Props) => (
             <FormattedMessage id="tabs.contact" />
           </MenuItem>
         </NavDropdown>
-        <NavItem eventKey={2} href="/docs/videos">
+        <NavItem eventKey={2} href="/videos">
           <FormattedMessage id="tabs.videos" />
         </NavItem>
-        <NavItem eventKey={3} href="/docs/news">
+        <NavItem eventKey={3} href="/news">
           <FormattedMessage id="tabs.news" />
         </NavItem>
-        <NavItem eventKey={4} href="/docs/calendar">
+        <NavItem eventKey={4} href="/calendar">
           <FormattedMessage id="tabs.calendar" />
         </NavItem>
       </Nav>
