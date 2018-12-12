@@ -19,6 +19,7 @@ import HomePage from 'pages/home-page';
 import CalendarPage from 'pages/calendar-page';
 import VideoPage from 'pages/video-page';
 import NewsPage from 'pages/news-page';
+import AboutPage from 'pages/about-page';
 
 class App extends React.Component<{||}> {
   render() {
@@ -36,6 +37,7 @@ class App extends React.Component<{||}> {
                   component={VideoPage}
                 />
                 <Route exact path="/news" name="news" component={NewsPage} />
+                <Route exact path="/about" name="news" component={AboutPage} />
                 <Route
                   exact
                   path="/calendar"

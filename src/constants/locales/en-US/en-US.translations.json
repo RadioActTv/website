@@ -1,6 +1,8 @@
 {
   "homepage.title": "RadioAct.TV",
-  "tabs.videos": "סרטונים",
+  "homepage.description": "",
+  "tabs.live": "שידור חי",
+  "tabs.videos": "ארכיון סרטים",
   "tabs.news": "כתבות",
   "tabs.contact": "צור קשר",
   "tabs.about": "אודות",
