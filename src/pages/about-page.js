@@ -32,14 +32,23 @@ export class AboutPage extends React.PureComponent<ConnectedProps & OwnProps> {
         חופשית ושקופה, אנו קוראים קריאה לכול מי שרוצה להצטרף בכל שלב, לתת יד,
         להשמיע קול, למסור מידע, להשלים ולתקן מידע, לחשוף ידיעות, להזדהות ולתמוך,
         לאהוב ולהתחבר. ערוץ " RadioAct.tv " מגייס: את כולם. כשהסמכות תפסיק להיות
-        האמת, והאמת תהיה הסמכות היחידה, לא נצטרך עוד את " RadioAct.tv"
+        האמת, והאמת תהיה הסמכות היחידה, לא נצטרך עוד את " RadioAct.tv".
+        <br />
+        <br />
+        ליצירת קשר
+        <br />
+        <a href="mailto:radiact.tv@gmail.com">radiact.tv@gmail.com</a>
+        <br />
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/RadioActTv-478985722585631/">
+          Share on Facebook
+        </a>
       </StyledContainer>
     );
   }
 }
 
 const StyledContainer = styled.div`
-  text-align: center;
+  text-align: right;
   direction: rtl;
   font-size: 16px;
   padding: 0 20px;
