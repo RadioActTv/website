@@ -20,6 +20,7 @@ import CalendarPage from 'pages/calendar-page';
 import VideoPage from 'pages/video-page';
 import NewsPage from 'pages/news-page';
 import AboutPage from 'pages/about-page';
+import BannerPage from 'pages/banner-page';
 
 class App extends React.Component<{||}> {
   render() {
@@ -38,6 +39,12 @@ class App extends React.Component<{||}> {
                 />
                 <Route exact path="/news" name="news" component={NewsPage} />
                 <Route exact path="/about" name="news" component={AboutPage} />
+                <Route
+                  exact
+                  path="/banner"
+                  name="banner"
+                  component={BannerPage}
+                />
                 <Route
                   exact
                   path="/calendar"
